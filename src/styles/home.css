@@ -134,8 +134,78 @@
     text-decoration: none;
 }
 
-.home-contact-link:hover {
-    text-decoration: underline;
+.home-contact-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+}
+
+.property-address-container {
+    background-color: #487d4b;
+}
+
+.property-address {
+  padding: 0 24px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  scroll-margin-top: 60px;
+}
+
+/* Tighten the heading margin */
+.property-address-heading {
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffffff;
+  padding-top: 40px;
+  margin: 0 0 12px; /* Restricts space below the heading */
+}
+
+/* Tighten the space between paragraphs */
+.property-address-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 2px 0; /* Brings the lines significantly closer together */
+}
+
+/* Rest of your existing CSS remains the same */
+.property-address-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+.property-address-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 32px 2px;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 10px;
+}
+.property-address-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 4px;
+}
+.property-address-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+}
+.property-address-link:hover {
+  text-decoration: underline;
 }
 
 .home-listings {
@@ -237,6 +307,41 @@
 
 .home-btn-secondary {
     background-color: white;
-    color: #2e7d32;
+    color: #487d4b;
+    align-items: center;
+    padding: 14px 34px;
+    margin: 12px 0px 6px 0px;
+}
+
+@media (max-width: 768px) {
+  .home-image {
+    /* Slightly lower min-height so the background image frames beautifully on phone aspect ratios */
+    min-height: 70vh; 
+  }
+
+  .home-title {
+    /* Scale down main text from 5rem to a responsive mobile size */
+    font-size: 2.5rem; 
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .home-title-apartments {
+    /* Scale down "APARTMENTS" text so it doesn't push off the screen edge */
+    font-size: 0.9rem; 
+    letter-spacing: 0.2em; /* Slightly tightens letter gaps for small screens */
+  }
+
+  .home-title-divider {
+    /* Shorten the graphic horizontal lines so they don't crowd the text */
+    min-width: 15px; 
+  }
+
+  .home-subtitle {
+    /* Ensures your subtitle remains clear, readable, and tightly framed */
+    font-size: 1rem;
+    padding: 0 10px;
+    line-height: 1.4;
+  }
 }
 
