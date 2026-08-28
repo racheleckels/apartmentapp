@@ -24,7 +24,7 @@ function Home() {
             <p>Experience comfortable, hassle-free living in a welcoming apartment community designed for students and families. Conveniently located near the University of Arkansas and multiple bus stops, our fully furnished apartments make it easy to settle in and feel at home from day one.</p> 
             <p>Residents enjoy high-speed internet, on-site laundry facilities, and pre-furnished units. Whether you're studying, working, or connecting with neighbors, our community offers a convenient and supportive place to live.</p>
         </section>
-        <section className="image-reel-section">
+        <section className="image-reel-section" id="image-reel">
             <ImageReel />
         </section>
         <section className="home-listings" id="units">

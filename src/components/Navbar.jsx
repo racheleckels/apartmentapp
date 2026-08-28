@@ -15,7 +15,7 @@ function Navbar() {
             </button>
             <div className={`navbar-links${open ? ' navbar-links--open' : ''}`}>
                 <a className="navbar-link" href="#" onClick={() => setOpen(false)}>Home</a>
-                <a className="navbar-link" href="#units" onClick={() => setOpen(false)}>View Units</a>
+                <a className="navbar-link" href="#image-reel" onClick={() => setOpen(false)}>View Units</a>
                 <a className="navbar-link" href="#contact" onClick={() => setOpen(false)}>Contact</a>
             </div>
         </nav>
