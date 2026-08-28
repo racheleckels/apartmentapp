@@ -2,9 +2,6 @@ import { useState } from 'react';
 import '../styles/imagereel.css';
 
 const reelImages = [
-  { id: 1, src: 'https://picsum.photos', caption: 'Mountain View' },
-  { id: 2, src: 'https://picsum.photos', caption: 'Dry Riverbed' },
-  { id: 3, src: 'https://picsum.photos', caption: 'Forest Path' },
 ];
 
 export default function ImageReel() {
