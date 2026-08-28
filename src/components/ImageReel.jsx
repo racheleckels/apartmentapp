@@ -12,9 +12,9 @@ import livingroom2 from '../assets/unit_images/LivingRoom2.jpg';
 import livingroom3 from '../assets/unit_images/LivingRoom3.jpg';
 
 const reelImages = [
-  { id: 1, src: halfbath, caption: 'Half Bathroom' },
-  { id: 2, src: bedroom1a, caption: 'Bedroom 1' },
-  { id: 3, src: bedroom1b, caption: 'Bedroom 1' },
+  { id: 1, src: bedroom1a, caption: 'Bedroom 1' },
+  { id: 2, src: bedroom1b, caption: 'Bedroom 1' },
+  { id: 3, src: halfbath, caption: 'Half Bathroom' },
   { id: 5, src: bedroom2b, caption: 'Bedroom 2' },
   { id: 6, src: exterior, caption: 'Unit 109 exterior' },
   { id: 7, src: fullbath, caption: 'Full Bathroom' },
